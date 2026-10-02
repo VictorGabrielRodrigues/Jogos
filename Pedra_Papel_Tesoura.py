@@ -25,9 +25,7 @@ if opcao_humano==opcao_computador:
     print("\n#---------------Ouve um Empate---------------#")
     print(f"\n#---------O Robo escolheu {opcao_computadorl} ---------#")
     
-if ((opcao_humano==1 and opcao_computador==3) or 
-      (opcao_humano==2 and opcao_computador==1) or 
-      (opcao_humano==3 and opcao_computador==2)):
+elif ((opcao_humano==1 and opcao_computador==3) or (opcao_humano==2 and opcao_computador==1) or (opcao_humano==3 and opcao_computador==2)):
     
     print("\n#---------------Você Ganhou!!!---------------#")
     print(f"\n#---------O Robo escolheu {opcao_computadorl} ---------#")
